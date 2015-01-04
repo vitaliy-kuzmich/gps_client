@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="2"
+        android:inputType="number"
+        android:key="gpsMinChangeDistance"
+        android:summary="minimum distance between location updates, in meters" />
+    <EditTextPreference
+        android:defaultValue="1000"
+        android:inputType="number"
+        android:key="gpsMinInterval"
+        android:summary="minimum time interval between location updates, in milliseconds" />
+    <EditTextPreference
+        android:defaultValue="60000"
+        android:inputType="number"
+        android:key="socketConnectionTimeOut"
+        android:summary="socket timeout value in milliseconds or 0 for an infinite timeout" />
+    <EditTextPreference
+        android:defaultValue="192.168.0.219"
+        android:key="serverAddress"
+        android:summary="server IP or domain name" />
+    <EditTextPreference
+        android:defaultValue="8088"
+        android:inputType="number"
+        android:key="serverPort"
+        android:summary="server port" />
+    <EditTextPreference
+        android:defaultValue="user"
+        android:key="username"
+        android:summary="login" />
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="password"
+        android:summary="password" />
+
+</PreferenceScreen>

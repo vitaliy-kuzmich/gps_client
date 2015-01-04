@@ -1,4 +1,6 @@
 gps_client
 ==========
+Eclipse project
+android client for gps server(https://github.com/vitaliy-kuzmich/gps_server.git) example
 
-android client for gps server
+It just get coordinates and sends to server
